@@ -1,0 +1,18 @@
+image: ubuntu
+platform: Any CPU
+
+stack: "node 14"
+
+install:
+  # Output useful info for debugging.
+  - node --version
+  - npm --version
+  # install modules
+  - sh: npm ci
+  - sh: npm install -g @lhci/cli npm-run-all
+
+test_script:
+  - npm test
+
+# Don't actually build.
+build: off
