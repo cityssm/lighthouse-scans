@@ -1,5 +1,7 @@
 name: apps.saultstemarie.ca-cityapps
-on: [push]
+on:
+  schedule:
+    - cron: '0 1 * * 1-5'
 jobs:
   lighthouseci:
     runs-on: ubuntu-latest
