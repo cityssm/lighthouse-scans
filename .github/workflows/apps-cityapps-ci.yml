@@ -1,5 +1,6 @@
 name: apps.saultstemarie.ca-cityapps
 on:
+  push:
   schedule:
     - cron: '0 1 * * 1-5'
 jobs:

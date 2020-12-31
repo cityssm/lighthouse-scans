@@ -1,5 +1,6 @@
 name: ThirdParty-VCH
 on:
+  push:
   schedule:
     - cron: '0 1 * * 1-5'
 jobs:
