@@ -1,4 +1,4 @@
-name: apps.saultstemarie.ca-eservices
+name: ThirdParty-ActiveCommunities
 on: [push]
 jobs:
   lighthouseci:

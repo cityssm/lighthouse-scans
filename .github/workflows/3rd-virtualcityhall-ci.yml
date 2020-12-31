@@ -1,4 +1,4 @@
-name: apps.saultstemarie.ca-eservices
+name: ThirdParty-VCH
 on: [push]
 jobs:
   lighthouseci:
