@@ -13,7 +13,7 @@
     "test:eservices:apps-eservices": "lhci autorun --config sites/appsSaultstemarieCa-eservices/lighthouserc.js",
     "test:group:thirdparty": "npm-run-all -c test:thirdparty:*",
     "test:thirdparty:activecommunities": "lhci autorun --config sites/activecommunities/lighthouserc.js",
-    "_test:thirdparty:virtualcityhall": "lhci autorun --config sites/virtualcityhall/lighthouserc.js",
+    "test:thirdparty:virtualcityhall": "lhci autorun --config sites/virtualcityhall/lighthouserc.js",
     "test": "npm-run-all -c test:group:*"
   },
   "repository": {

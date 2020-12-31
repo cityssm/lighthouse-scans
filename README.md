@@ -5,8 +5,6 @@ A script to scan the City's websites for performance, accessibility, and best pr
 Uses [lighthouse-ci](https://github.com/GoogleChrome/lighthouse-ci)
 to regularly audit websites that the City of Sault Ste. Marie is responsible for.
 
-[Test Results](https://ci.appveyor.com/project/dangowans/lighthouse-scans)
-
 ## Run It Locally
 
 ```bash
