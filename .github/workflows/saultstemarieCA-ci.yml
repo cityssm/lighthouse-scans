@@ -8,3 +8,5 @@ jobs:
       - uses: actions/setup-node@v1
       - run: npm install && npm install -g @lhci/cli
       - run: lhci autorun --config sites/saultstemarieCa/lighthouserc.js
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
