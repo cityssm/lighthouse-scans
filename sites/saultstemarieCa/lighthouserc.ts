@@ -10,10 +10,13 @@ module.exports = {
         // Pages
         "https://saultstemarie.ca/Stay-Connected.aspx",
         "https://saultstemarie.ca/City-Hall/COVID-19-Affected-City-Services-and-Facilities.aspx",
+        "https://saultstemarie.ca/City-Hall/City-Departments/Community-Development-Enterprise-Services/Community-Services/Recreation-and-Culture/Waterfront-Walkway.aspx",
         "https://saultstemarie.ca/City-Hall/City-Departments/Community-Development-Enterprise-Services/Community-Services/Transit/Bus-Routes-and-Schedules.aspx",
         "https://saultstemarie.ca/City-Hall/City-Departments/Community-Development-Enterprise-Services/Community-Services/Transit/Bus-Fares-and-Passes.aspx",
         "https://saultstemarie.ca/City-Hall/City-Departments/Corporate-Services/Human-Resources/Job-Opportunities.aspx",
+        "https://saultstemarie.ca/City-Hall/City-Departments/Finance/Purchasing/Tenders-and-Proposals.aspx",
         "https://saultstemarie.ca/City-Hall/City-Departments/Fire-Services/Prevention-and-Public-Education.aspx",
+        "https://saultstemarie.ca/City-Hall/City-Departments/Legal/City-By-laws.aspx",
         "https://saultstemarie.ca/City-Hall/City-Departments/Public-Works-Engineering-Services/Public-Works/Waste-Management/Collection-Calendar.aspx",
 
         // Forms
@@ -22,6 +25,7 @@ module.exports = {
 
         // News
         "https://saultstemarie.ca/Newsroom.aspx",
+        "https://saultstemarie.ca/Newsroom/December-2020.aspx",
         "https://saultstemarie.ca/Newsroom/December-2020/Season%E2%80%99s-greetings-from-Mayor-Provenzano.aspx",
 
         // Search Results

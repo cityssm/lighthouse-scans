@@ -1,0 +1,15 @@
+name: ThirdParty-ClearRisk
+on:
+  push:
+  schedule:
+    - cron: '0 1,7 * * 1-5'
+jobs:
+  lighthouseci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: npm install && npm install -g @lhci/cli
+      - run: lhci autorun --config sites/clearrisk/lighthouserc.js
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
