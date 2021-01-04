@@ -21,7 +21,11 @@ module.exports = {
                 "https://saultstemarie.ca/Newsroom.aspx",
                 "https://saultstemarie.ca/Newsroom/December-2020.aspx",
                 "https://saultstemarie.ca/Newsroom/December-2020/Season%E2%80%99s-greetings-from-Mayor-Provenzano.aspx",
-                "https://saultstemarie.ca/Search.aspx?searchtext=parks"
+                "https://saultstemarie.ca/Search.aspx?searchtext=parks",
+                "https://saultstemarie.ca/webapps/meetingMinutes.asp?type=council",
+                "https://saultstemarie.ca/webapps/corporateCalendar.asp?e=true",
+                "https://saultstemarie.ca/webapps/parabusCalendar.asp",
+                "https://saultstemarie.ca/webapps/parksAndPlaygrounds.asp"
             ],
             numberOfRuns: 2
         },
