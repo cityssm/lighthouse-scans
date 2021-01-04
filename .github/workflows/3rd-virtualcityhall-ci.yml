@@ -2,7 +2,7 @@ name: ThirdParty-VCH
 on:
   push:
   schedule:
-    - cron: '0 1,7 * * 1-5'
+    - cron: '0 11,16 * * 1-5'
 jobs:
   lighthouseci:
     runs-on: ubuntu-latest
