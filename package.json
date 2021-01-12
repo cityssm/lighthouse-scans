@@ -6,19 +6,17 @@
   "scripts": {
     "test:group:websites": "npm-run-all -c test:website:*",
     "test:website:gflgardens": "lhci autorun --config sites/gflgardensCa/lighthouserc.js",
+    "test:website:investsaultstemarie": "lhci autorun --config sites/investSaultSteMarieCom/lighthouserc.js",
     "test:website:saultstemarie": "lhci autorun --config sites/saultstemarieCa/lighthouserc.js",
     "test:website:welcometossm": "lhci autorun --config sites/welcometossmCa/lighthouserc.js",
-
     "test:group:eservices": "npm-run-all -c test:eservices:*",
     "test:eservices:apps-cityapps": "lhci autorun --config sites/appsSaultstemarieCa-cityapps/lighthouserc.js",
     "test:eservices:apps-eservices": "lhci autorun --config sites/appsSaultstemarieCa-eservices/lighthouserc.js",
-
     "test:group:thirdparty": "npm-run-all -c test:thirdparty:*",
     "test:thirdparty:activecommunities": "lhci autorun --config sites/activecommunities/lighthouserc.js",
     "test:thirdparty:arenaTicketSales": "lhci autorun --config sites/arenaTicketSales/lighthouserc.js",
     "test:thirdparty:clearrisk": "lhci autorun --config sites/clearrisk/lighthouserc.js",
     "test:thirdparty:virtualcityhall": "lhci autorun --config sites/virtualcityhall/lighthouserc.js",
-
     "test": "npm-run-all -c test:group:*"
   },
   "repository": {
@@ -32,10 +30,10 @@
   },
   "homepage": "https://github.com/cityssm/lighthouse-scans#readme",
   "devDependencies": {
-    "@types/node": "^14.14.17",
-    "@typescript-eslint/eslint-plugin": "^4.11.1",
-    "@typescript-eslint/parser": "^4.11.1",
-    "eslint": "^7.16.0",
+    "@types/node": "^14.14.20",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "eslint": "^7.17.0",
     "eslint-config-standard-with-typescript": "^19.0.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
