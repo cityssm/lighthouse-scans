@@ -8,7 +8,7 @@
     "test:website:gflgardens": "lhci autorun --config sites/gflgardensCa/lighthouserc.js",
     "test:website:investsaultstemarie": "lhci autorun --config sites/investSaultSteMarieCom/lighthouserc.js",
     "test:website:saultstemarie": "lhci autorun --config sites/saultstemarieCa/lighthouserc.js",
-    "test:website:welcometossm": "lhci autorun --config sites/welcometossmCa/lighthouserc.js",
+    "test:website:welcometossm": "lhci autorun --config sites/welcometossmCom/lighthouserc.js",
     "test:group:eservices": "npm-run-all -c test:eservices:*",
     "test:eservices:apps-cityapps": "lhci autorun --config sites/appsSaultstemarieCa-cityapps/lighthouserc.js",
     "test:eservices:apps-eservices": "lhci autorun --config sites/appsSaultstemarieCa-eservices/lighthouserc.js",
