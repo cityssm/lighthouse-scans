@@ -21,8 +21,8 @@ module.exports = {
 
         // Pages with Forms
         "https://saultstemarie.ca/Feedback.aspx",
-        "https://saultstemarie.ca/City-Hall/City-Departments/Community-Development-Enterprise-Services/Planning-Enterprise-Services/Accessibility/Report-a-Barrier.aspx",
-        "https://saultstemarie.ca/City-Hall/City-Departments/Public-Works-Engineering-Services/Public-Works/Service-Requests.aspx",
+        // "https://saultstemarie.ca/City-Hall/City-Departments/Community-Development-Enterprise-Services/Planning-Enterprise-Services/Accessibility/Report-a-Barrier.aspx",
+        // "https://saultstemarie.ca/City-Hall/City-Departments/Public-Works-Engineering-Services/Public-Works/Service-Requests.aspx",
 
         // News Pages
         "https://saultstemarie.ca/Newsroom.aspx",

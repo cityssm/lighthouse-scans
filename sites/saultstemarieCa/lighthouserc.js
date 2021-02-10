@@ -17,8 +17,6 @@ module.exports = {
                 "https://saultstemarie.ca/City-Hall/City-Departments/Legal/City-By-laws.aspx",
                 "https://saultstemarie.ca/City-Hall/City-Departments/Public-Works-Engineering-Services/Public-Works/Waste-Management/Collection-Calendar.aspx",
                 "https://saultstemarie.ca/Feedback.aspx",
-                "https://saultstemarie.ca/City-Hall/City-Departments/Community-Development-Enterprise-Services/Planning-Enterprise-Services/Accessibility/Report-a-Barrier.aspx",
-                "https://saultstemarie.ca/City-Hall/City-Departments/Public-Works-Engineering-Services/Public-Works/Service-Requests.aspx",
                 "https://saultstemarie.ca/Newsroom.aspx",
                 "https://saultstemarie.ca/Newsroom/December-2020.aspx",
                 "https://saultstemarie.ca/Newsroom/December-2020/Season%E2%80%99s-greetings-from-Mayor-Provenzano.aspx",
