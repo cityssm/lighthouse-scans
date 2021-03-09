@@ -6,6 +6,9 @@ export declare const assertConfig: {
         "categories:best-practices": (string | {
             minScore: number;
         })[];
+        "categories:seo": (string | {
+            minScore: number;
+        })[];
         "categories:performance": (string | {
             minScore: number;
         })[];

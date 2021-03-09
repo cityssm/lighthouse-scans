@@ -13,13 +13,17 @@ npm install -g @lhci/cli npm-run-all
 npm test
 ```
 
+Individual website tests can be run as well.
+See the `scripts` section of the [package.json](package.json) file.
+
 ## Current Test Criteria
 
-| Test Category  | Minimum Score | Result  |
-| -------------- | ------------- | ------- |
-| Accessibility  | 98%           | Error   |
-| Best Practices | 50%           | Error   |
-| Performance    | 50%           | Warning |
+| Test Category                    | Minimum Score | Result  |
+| -------------------------------- | ------------- | ------- |
+| Accessibility                    | 98%           | Error   |
+| Best Practices                   | 50%           | Error   |
+| Search Engine Optimization (SEO) | 50%           | Error   |
+| Performance                      | 50%           | Warning |
 
 Categories with "Error" results affect the passing score below.
 Categories with "Warning" results are logged.
