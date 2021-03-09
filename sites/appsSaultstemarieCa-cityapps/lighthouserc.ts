@@ -8,6 +8,7 @@ module.exports = {
         "https://apps.saultstemarie.ca/cityapps/",
 
         // Pages
+        "https://apps.saultstemarie.ca/cityapps/account-create.asp",
         "https://apps.saultstemarie.ca/cityapps/builderServices-bookInspection.asp",
         "https://apps.saultstemarie.ca/cityapps/builderServices-inspectionChecklists.asp",
         "https://apps.saultstemarie.ca/cityapps/builderServices-blankChecklist.asp?c=140",

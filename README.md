@@ -18,7 +18,7 @@ npm test
 | Test Category  | Minimum Score | Result  |
 | -------------- | ------------- | ------- |
 | Accessibility  | 98%           | Error   |
-| Best Practices | 70%           | Error   |
+| Best Practices | 50%           | Error   |
 | Performance    | 50%           | Warning |
 
 Categories with "Error" results affect the passing score below.

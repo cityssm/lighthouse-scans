@@ -4,7 +4,7 @@ exports.uploadConfig = exports.assertConfig = void 0;
 exports.assertConfig = {
     assertions: {
         "categories:accessibility": ["error", { minScore: 0.98 }],
-        "categories:best-practices": ["error", { minScore: 0.7 }],
+        "categories:best-practices": ["error", { minScore: 0.5 }],
         "categories:performance": ["warn", { minScore: 0.5 }]
     }
 };
