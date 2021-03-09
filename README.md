@@ -13,7 +13,7 @@ npm install -g @lhci/cli npm-run-all
 npm test
 ```
 
-Individual website tests can be run as well.
+Individual website tests and website groups can be run as well.
 See the `scripts` section of the [package.json](package.json) file.
 
 ## Current Test Criteria
@@ -50,3 +50,5 @@ Thanks [Shields.io](https://shields.io/) for the badges used to make the table b
 | [Third Party - Arena Ticket Sales](https://gflgardens.evenue.net/cgi-bin/ncommerce3/SEGetGroupList?groupCode=SC&linkID=global-steelback&shopperContext=&caller=&appCode=) | `npm run test:thirdparty:arenaTicketSales`  | [![ThirdParty-ArenaTicketSales](https://img.shields.io/github/workflow/status/cityssm/lighthouse-scans/ThirdParty-ArenaTicketSales?label=%20&style=for-the-badge)](https://github.com/cityssm/lighthouse-scans/actions?query=workflow%3AThirdParty-ArenaTicketSales)             |
 | Third Party - Clear Risk Forms                                                                                                                                            | `npm run test:thirdparty:clearrisk`         | [![ThirdParty-ClearRisk](https://img.shields.io/github/workflow/status/cityssm/lighthouse-scans/ThirdParty-ClearRisk?label=%20&style=for-the-badge)](https://github.com/cityssm/lighthouse-scans/actions?query=workflow%3AThirdParty-ClearRisk)                                  |
 | [Third Party - Virtual City Hall](https://myfinance.saultstemarie.ca/vch/)                                                                                                | `npm run test:thirdparty:virtualcityhall`   | [![ThirdParty-VCH](https://img.shields.io/github/workflow/status/cityssm/lighthouse-scans/ThirdParty-VCH?label=%20&style=for-the-badge)](https://github.com/cityssm/lighthouse-scans/actions?query=workflow%3AThirdParty-VCH)                                                    |
+| [SaultNetwork.ca](https://saultnetwork.ca/)                                                                                                                               | `npm run test:other:saultnetwork`           | [![SaultNetwork.ca](https://img.shields.io/github/workflow/status/cityssm/lighthouse-scans/SaultNetwork.ca?label=%20&style=for-the-badge)](https://github.com/cityssm/lighthouse-scans/actions?query=workflow%3ASaultNetwork.ca)                                                 |
+| [SaultTogether.ca](https://saulttogether.ca/)                                                                                                                             | `npm run test:other:saulttogether`          | [![SaultTogether.ca](https://img.shields.io/github/workflow/status/cityssm/lighthouse-scans/SaultTogether.ca?label=%20&style=for-the-badge)](https://github.com/cityssm/lighthouse-scans/actions?query=workflow%3ASaultTogether.ca)                                              |
