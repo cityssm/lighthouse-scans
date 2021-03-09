@@ -13,6 +13,19 @@ npm install -g @lhci/cli npm-run-all
 npm test
 ```
 
+## Current Test Criteria
+
+| Test Category  | Minimum Score | Result  |
+| -------------- | ------------- | ------- |
+| Accessibility  | 98%           | Error   |
+| Best Practices | 70%           | Error   |
+| Performance    | 50%           | Warning |
+
+Categories with "Error" results affect the passing score below.
+Categories with "Warning" results are logged.
+
+As we improve our websites, the success criteria will increase.
+
 ## Latest Scan Results
 
 Note that websites marked as "failing" are not down.  We are just striving to improve them.
