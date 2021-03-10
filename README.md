@@ -18,12 +18,12 @@ See the `scripts` section of the [package.json](package.json) file.
 
 ## Current Test Criteria
 
-| Test Category                    | Minimum Score | Result  |
-| -------------------------------- | ------------- | ------- |
-| Accessibility                    | 98%           | Error   |
-| Best Practices                   | 50%           | Error   |
-| Search Engine Optimization (SEO) | 50%           | Error   |
-| Performance                      | 50%           | Warning |
+| Test Category                    | Minimum Score |
+| -------------------------------- | ------------- |
+| Accessibility                    | 98%           |
+| Best Practices                   | 60%           |
+| Search Engine Optimization (SEO) | 50%           |
+| Performance                      | 30%           |
 
 Categories with "Error" results affect the passing score below.
 Categories with "Warning" results are logged.

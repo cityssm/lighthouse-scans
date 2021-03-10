@@ -21,6 +21,7 @@
     "test:group:other": "npm-run-all -c test:other:*",
     "test:other:saultnetwork": "lhci autorun --config sites/saultNetworkCa/lighthouserc.js",
     "test:other:saulttogether": "lhci autorun --config sites/saultTogetherCa/lighthouserc.js",
+    "test:other:shapethesault": "lhci autorun --config sites/shapethesaultCa/lighthouserc.js",
     "test": "npm-run-all -c test:group:*"
   },
   "repository": {
@@ -34,7 +35,7 @@
   },
   "homepage": "https://github.com/cityssm/lighthouse-scans#readme",
   "devDependencies": {
-    "@types/node": "^14.14.32",
+    "@types/node": "^14.14.33",
     "@typescript-eslint/eslint-plugin": "^4.17.0",
     "@typescript-eslint/parser": "^4.17.0",
     "eslint": "^7.21.0",
