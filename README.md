@@ -25,9 +25,6 @@ See the `scripts` section of the [package.json](package.json) file.
 | Search Engine Optimization (SEO) | 50%           |
 | Performance                      | 30%           |
 
-Categories with "Error" results affect the passing score below.
-Categories with "Warning" results are logged.
-
 As we improve our websites, the success criteria will increase.
 
 ## Latest Scan Results
@@ -52,3 +49,4 @@ Thanks [Shields.io](https://shields.io/) for the badges used to make the table b
 | [Third Party - Virtual City Hall](https://myfinance.saultstemarie.ca/vch/)                                                                                                | `npm run test:thirdparty:virtualcityhall`   | [![ThirdParty-VCH](https://img.shields.io/github/workflow/status/cityssm/lighthouse-scans/ThirdParty-VCH?label=%20&style=for-the-badge)](https://github.com/cityssm/lighthouse-scans/actions?query=workflow%3AThirdParty-VCH)                                                    |
 | [SaultNetwork.ca](https://saultnetwork.ca/)                                                                                                                               | `npm run test:other:saultnetwork`           | [![SaultNetwork.ca](https://img.shields.io/github/workflow/status/cityssm/lighthouse-scans/SaultNetwork.ca?label=%20&style=for-the-badge)](https://github.com/cityssm/lighthouse-scans/actions?query=workflow%3ASaultNetwork.ca)                                                 |
 | [SaultTogether.ca](https://saulttogether.ca/)                                                                                                                             | `npm run test:other:saulttogether`          | [![SaultTogether.ca](https://img.shields.io/github/workflow/status/cityssm/lighthouse-scans/SaultTogether.ca?label=%20&style=for-the-badge)](https://github.com/cityssm/lighthouse-scans/actions?query=workflow%3ASaultTogether.ca)                                              |
+| [ShapeTheSault.ca](https://shapethesault.ca/)                                                                                                                             | `npm run test:other:shapethesault`          | [![ShapeTheSault.ca](https://img.shields.io/github/workflow/status/cityssm/lighthouse-scans/ShapeTheSault.ca?label=%20&style=for-the-badge)](https://github.com/cityssm/lighthouse-scans/actions?query=workflow%3AShapeTheSault.ca)                                              |
