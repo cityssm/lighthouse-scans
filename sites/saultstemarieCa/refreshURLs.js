@@ -12,9 +12,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const get_site_urls_1 = require("@cityssm/get-site-urls");
 const fs = require("fs");
 (() => __awaiter(void 0, void 0, void 0, function* () {
-    const links = yield get_site_urls_1.getSiteUrls("https://saultstemarie.ca/");
+    const siteUrls = yield get_site_urls_1.getSiteUrls("https://saultstemarie.ca/");
     try {
-        fs.writeFileSync("./sites/saultstemarieCA/urls.json", JSON.stringify(links));
+        fs.writeFile("./sites/saultstemarieCA/urls.json", JSON.stringify(siteUrls), {}, () => {
+            console.log("done");
+        });
     }
     catch (err) {
         console.error(err);

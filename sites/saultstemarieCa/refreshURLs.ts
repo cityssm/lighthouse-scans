@@ -2,12 +2,14 @@ import { getSiteUrls } from "@cityssm/get-site-urls";
 import * as fs from "fs";
 
 
-(async() => {
+(async () => {
 
-  const links = await getSiteUrls("https://saultstemarie.ca/");
+  const siteUrls = await getSiteUrls("https://saultstemarie.ca/");
 
   try {
-    fs.writeFileSync("./sites/saultstemarieCA/urls.json", JSON.stringify(links));
+    fs.writeFile("./sites/saultstemarieCA/urls.json", JSON.stringify(siteUrls), {}, () => {
+      console.log("done");
+    });
   } catch (err) {
     console.error(err);
   }
