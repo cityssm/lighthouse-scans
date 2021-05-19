@@ -4,7 +4,7 @@ import * as fs from "fs";
 
 (async () => {
 
-  const siteUrls = await getSiteUrls("https://saultstemarie.ca/");
+  const siteUrls = await getSiteUrls("https://saultstemarie.ca/", 3);
 
   try {
     fs.writeFile("./sites/saultstemarieCA/urls.json", JSON.stringify(siteUrls), {}, () => {
