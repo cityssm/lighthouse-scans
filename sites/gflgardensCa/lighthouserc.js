@@ -1,18 +1,19 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const config_1 = require("../config");
+const scannedUrls = require("./urls.json");
+const urls = new Set([
+    "http://gflgardens.ca/webapps-gardens/eventCalendar_home/index.asp",
+    "http://gflgardens.ca/webapps-gardens/eventCalendar/index.asp",
+    "http://gflgardens.ca/webapps-gardens/seatingMap_hockey/index.asp",
+    "http://gflgardens.ca/webapps-gardens/seatingMap_concert/index.asp"
+]);
+scannedUrls.pages.forEach(urls.add, urls);
+scannedUrls.errors.forEach(urls.add, urls);
 module.exports = {
     ci: {
         collect: {
-            url: [
-                "http://gflgardens.ca",
-                "http://gflgardens.ca/Business-Opportunities/Meeting-Rooms.aspx",
-                "http://gflgardens.ca/Events-Ticketing/Seating-Charts.aspx",
-                "http://gflgardens.ca/Events-Ticketing/Ways-to-Buy-Tickets.aspx",
-                "http://gflgardens.ca/Promoter-Info/Event-History.aspx",
-                "http://gflgardens.ca/Events-Ticketing/Events-Calendar.aspx",
-                "http://gflgardens.ca/Events-Ticketing/Events-Calendar/2020/03-mar/Soo-Greyhounds-vs-Kingston-Frontenacs.aspx"
-            ],
+            url: Array.from(urls),
             numberOfRuns: 2
         },
         assert: config_1.assertConfig,

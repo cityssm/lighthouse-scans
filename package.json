@@ -25,6 +25,7 @@
     "test:other:saulttogether": "lhci autorun --config sites/saultTogetherCa/lighthouserc.js",
     "test:other:shapethesault": "lhci autorun --config sites/shapethesaultCa/lighthouserc.js",
     "refreshURLs:group:websites": "npm-run-all -c refreshURLs:website:*",
+    "refreshURLs:website:gflgardens": "node ./sites/gflgardensCa/refreshURLs.js",
     "refreshURLs:website:saultstemarie": "node ./sites/saultstemarieCa/refreshURLs.js"
   },
   "repository": {
