@@ -11,7 +11,7 @@ const urls = new Set<string>([
 ]);
 
 scannedUrls.pages.forEach(urls.add, urls);
-scannedUrls.errors.forEach(urls.add, urls);
+// scannedUrls.errors.forEach(urls.add, urls);
 
 module.exports = {
   ci: {

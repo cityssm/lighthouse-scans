@@ -10,7 +10,6 @@ const urls = new Set([
     "https://saultstemarie.ca/webapps/parksAndPlaygrounds.asp"
 ]);
 scannedUrls.pages.forEach(urls.add, urls);
-scannedUrls.errors.forEach(urls.add, urls);
 module.exports = {
     ci: {
         collect: {

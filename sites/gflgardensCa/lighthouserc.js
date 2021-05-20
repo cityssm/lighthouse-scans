@@ -9,7 +9,6 @@ const urls = new Set([
     "http://gflgardens.ca/webapps-gardens/seatingMap_concert/index.asp"
 ]);
 scannedUrls.pages.forEach(urls.add, urls);
-scannedUrls.errors.forEach(urls.add, urls);
 module.exports = {
     ci: {
         collect: {
