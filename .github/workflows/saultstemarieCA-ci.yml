@@ -1,6 +1,5 @@
 name: SaultSteMarie.ca
 on:
-  push:
   schedule:
     - cron: '0 9 * * 1-5'
 jobs:
@@ -11,7 +10,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npm install && npm install -g @lhci/cli@0.7.1
+      - run: npm install && npm install -g @lhci/cli@0.7.2
       - run: npm run refreshURLs:website:saultstemarie
       - run: lhci autorun --config sites/saultstemarieCa/lighthouserc.js
         env:
