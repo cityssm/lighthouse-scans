@@ -47,7 +47,7 @@
     "eslint-plugin-import": "^2.23.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
-    "typescript": "^4.2.4"
+    "typescript": "^4.3.2"
   },
   "dependencies": {
     "@cityssm/get-site-urls": "^2.0.2"
