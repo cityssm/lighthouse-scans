@@ -7,6 +7,7 @@
     "refreshURLs": "npm-run-all -c refreshURLs:group:*",
     "test:group:websites": "npm-run-all -c test:website:*",
     "test:website:gflgardens": "lhci autorun --config sites/gflgardensCa/lighthouserc.js",
+    "test:website:futuressm": "lhci autorun --config sites/futuressmCom/lighthouserc.js",
     "test:website:investsaultstemarie": "lhci autorun --config sites/investSaultSteMarieCom/lighthouserc.js",
     "test:website:saultstemarie": "lhci autorun --config sites/saultstemarieCa/lighthouserc.js",
     "test:website:saulttourism": "lhci autorun --config sites/saultTourismCom/lighthouserc.js",
@@ -39,15 +40,14 @@
   },
   "homepage": "https://github.com/cityssm/lighthouse-scans#readme",
   "devDependencies": {
-    "@types/node": "^15.6.1",
-    "@typescript-eslint/eslint-plugin": "^4.25.0",
-    "@typescript-eslint/parser": "^4.25.0",
-    "eslint": "^7.27.0",
+    "@types/node": "^15.12.5",
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "eslint": "^7.29.0",
     "eslint-config-standard-with-typescript": "^20.0.0",
-    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "typescript": "^4.2.4"
+    "eslint-plugin-promise": "^5.1.0"
   },
   "dependencies": {
     "@cityssm/get-site-urls": "^2.0.2"
