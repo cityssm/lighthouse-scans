@@ -1,6 +1,5 @@
 name: apps.saultstemarie.ca-shop
 on:
-  push:
   schedule:
     - cron: '0 8 * * 1-5'
 jobs:

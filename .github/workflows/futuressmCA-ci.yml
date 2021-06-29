@@ -1,5 +1,6 @@
 name: FutureSSM.com
 on:
+  push:
   schedule:
     - cron: '0 11 * * 1-5'
 jobs:
