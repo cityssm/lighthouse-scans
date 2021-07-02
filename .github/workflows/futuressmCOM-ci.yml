@@ -11,6 +11,7 @@ jobs:
         with:
           node-version: '14'
       - run: npm install && npm install -g @lhci/cli@0.7.2
+      - run: npm run refreshURLs:website:futuressm
       - run: lhci autorun --config sites/futuressmCom/lighthouserc.js
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
