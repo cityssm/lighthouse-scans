@@ -13,21 +13,25 @@
     "test:website:saultstemarie": "lhci autorun --config sites/saultstemarie/lighthouserc.json",
     "test:website:saulttourism": "lhci autorun --config sites/saultTourism/lighthouserc.json",
     "test:website:welcometossm": "lhci autorun --config sites/welcometossm/lighthouserc.json",
+
     "test:group:eservices": "npm-run-all -c test:eservices:*",
     "test:eservices:apps-cityapps": "lhci autorun --config sites/appsSaultstemarieCa-cityapps/lighthouserc.json",
     "test:eservices:apps-eservices": "lhci autorun --config sites/appsSaultstemarieCa-eservices/lighthouserc.json",
     "test:eservices:apps-shop": "lhci autorun --config sites/appsSaultstemarieCa-shop/lighthouserc.json",
+
     "test:group:thirdparty": "npm-run-all -c test:thirdparty:*",
     "test:thirdparty:activecommunities": "lhci autorun --config sites/activecommunities/lighthouserc.json",
     "test:thirdparty:arenaTicketSales": "lhci autorun --config sites/arenaTicketSales/lighthouserc.json",
     "test:thirdparty:clearrisk": "lhci autorun --config sites/clearrisk/lighthouserc.json",
     "test:thirdparty:virtualcityhall": "lhci autorun --config sites/virtualcityhall/lighthouserc.json",
+
     "test:group:other": "npm-run-all -c test:other:*",
     "test:other:saultnetwork": "lhci autorun --config sites/saultNetwork/lighthouserc.json",
     "test:other:saulttogether": "lhci autorun --config sites/saultTogether/lighthouserc.json",
     "test:other:shapethesault": "lhci autorun --config sites/shapethesault/lighthouserc.json",
 
     "build": "npm-run-all -c build:group:*",
+
     "build:group:websites": "npm-run-all -c build:website:*",
     "build:website:futuressm": "node ./sites/futuressm/buildConfig.js",
     "build:website:gflgardens": "node ./sites/gflgardens/buildConfig.js",
@@ -35,20 +39,22 @@
     "build:website:saultstemarie": "node ./sites/saultstemarie/buildConfig.js",
     "build:website:saulttourism": "node ./sites/saultTourism/buildConfig.js",
     "build:website:welcometossm": "node ./sites/welcometossm/buildConfig.js",
+
     "build:group:eservices": "npm-run-all -c build:eservices:*",
     "build:eservices:apps-cityapps": "node ./sites/appsSaultstemarieCa-cityapps/buildConfig.js",
     "build:eservices:apps-eservices": "node ./sites/appsSaultstemarieCa-eservices/buildConfig.js",
     "build:eservices:apps-shop": "node ./sites/appsSaultstemarieCa-shop/buildConfig.js",
+
     "build:group:thirdparty": "npm-run-all -c build:thirdparty:*",
     "build:thirdparty:activecommunities": "node ./sites/activecommunities/buildConfig.js",
     "build:thirdparty:arenaTicketSales": "node ./sites/arenaTicketSales/buildConfig.js",
     "build:thirdparty:clearrisk": "node ./sites/clearrisk/buildConfig.js",
     "build:thirdparty:virtualcityhall": "node ./sites/virtualcityhall/buildConfig.js",
+
     "build:group:other": "npm-run-all -c build:other:*",
     "build:other:saultnetwork": "node ./sites/saultNetwork/buildConfig.js",
     "build:other:saulttogether": "node ./sites/saultTogether/buildConfig.js",
     "build:other:shapethesault": "node ./sites/shapethesault/buildConfig.js"
-
   },
   "repository": {
     "type": "git",
