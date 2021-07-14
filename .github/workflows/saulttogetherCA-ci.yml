@@ -1,5 +1,6 @@
 name: SaultTogether.ca
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 11 * * 1-5'
 jobs:
