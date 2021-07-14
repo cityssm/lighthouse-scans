@@ -10,8 +10,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npm install && npm install -g @lhci/cli@0.7.2
-      - run: npm run refreshURLs:website:gflgardens
-      - run: lhci autorun --config sites/gflgardensCa/lighthouserc.js
+      - run: npm install && npm install -g @lhci/cli@0.8.0
+      - run: npm run build:website:gflgardens
+      - run: npm run test:website:gflgardens
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}

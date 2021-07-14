@@ -10,7 +10,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npm install && npm install -g @lhci/cli@0.7.2
-      - run: lhci autorun --config sites/appsSaultstemarieCa-eservices/lighthouserc.js
+      - run: npm install && npm install -g @lhci/cli@0.8.0
+      - run: npm run build:eservices:apps-eservices
+      - run: npm run test:eservices:apps-eservices
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}

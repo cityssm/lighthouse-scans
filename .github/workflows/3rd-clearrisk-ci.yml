@@ -10,7 +10,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npm install && npm install -g @lhci/cli@0.7.2
-      - run: lhci autorun --config sites/clearrisk/lighthouserc.js
+      - run: npm install && npm install -g @lhci/cli@0.8.0
+      - run: npm run build:thirdparty:clearrisk
+      - run: npm run test:thirdparty:clearrisk
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
