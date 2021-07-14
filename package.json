@@ -51,6 +51,6 @@
     "eslint-plugin-promise": "^5.1.0"
   },
   "dependencies": {
-    "@cityssm/get-site-urls": "^2.0.2"
+    "@cityssm/get-site-urls": "^3.0.1"
   }
 }
