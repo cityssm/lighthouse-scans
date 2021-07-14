@@ -1,4 +1,4 @@
-export const collectConfig_numberOfRuns = 3;
+export const collectConfig_numberOfRuns = 2;
 export const assertConfig = {
     assertions: {
         "categories:accessibility": ["error", { minScore: 0.98 }],
