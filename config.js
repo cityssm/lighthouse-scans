@@ -1,10 +1,10 @@
 export const collectConfig_numberOfRuns = 1;
 export const assertConfig = {
     assertions: {
-        "categories:accessibility": ["error", { minScore: 0.98 }],
+        "categories:accessibility": ["error", { minScore: 0.95 }],
         "categories:best-practices": ["error", { minScore: 0.6 }],
         "categories:seo": ["error", { minScore: 0.5 }],
-        "categories:performance": ["error", { minScore: 0.3 }]
+        "categories:performance": ["error", { minScore: 0.4 }]
     }
 };
 export const uploadConfig = {

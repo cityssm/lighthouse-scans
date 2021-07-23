@@ -20,10 +20,10 @@ See the `scripts` section of the [package.json](package.json) file.
 
 | Test Category                    | Minimum Score |
 | -------------------------------- | ------------- |
-| Accessibility                    | 98%           |
+| Accessibility                    | 95%           |
 | Best Practices                   | 60%           |
 | Search Engine Optimization (SEO) | 50%           |
-| Performance                      | 30%           |
+| Performance                      | 40%           |
 
 As we improve our websites, the success criteria will increase.
 
