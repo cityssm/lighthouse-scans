@@ -1,4 +1,4 @@
-# lighthouse-scans
+# City of Sault Ste. Marie Lighthouse Scans
 
 A script to scan the City's websites for performance, accessibility, and best practice issues.
 
