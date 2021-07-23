@@ -1,4 +1,4 @@
-export declare const collectConfig_numberOfRuns = 2;
+export declare const collectConfig_numberOfRuns = 1;
 export declare const assertConfig: {
     assertions: {
         "categories:accessibility": (string | {

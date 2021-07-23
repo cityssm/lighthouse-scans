@@ -1,4 +1,4 @@
-export const collectConfig_numberOfRuns = 2;
+export const collectConfig_numberOfRuns = 1;
 
 export const assertConfig = {
   assertions: {

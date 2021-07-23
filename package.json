@@ -26,6 +26,7 @@
     "test:thirdparty:virtualcityhall": "lhci autorun --config sites/virtualcityhall/lighthouserc.json",
 
     "test:group:other": "npm-run-all -c test:other:*",
+    "test:other:cityssmGithub": "lhci autorun --config sites/cityssmGithubIO/lighthouserc.json",
     "test:other:saultnetwork": "lhci autorun --config sites/saultNetwork/lighthouserc.json",
     "test:other:saulttogether": "lhci autorun --config sites/saultTogether/lighthouserc.json",
     "test:other:shapethesault": "lhci autorun --config sites/shapethesault/lighthouserc.json",
@@ -52,6 +53,7 @@
     "build:thirdparty:virtualcityhall": "node ./sites/virtualcityhall/buildConfig.js",
 
     "build:group:other": "npm-run-all -c build:other:*",
+    "build:other:cityssmGithub": "node ./sites/cityssmGithubIO/buildConfig.js",
     "build:other:saultnetwork": "node ./sites/saultNetwork/buildConfig.js",
     "build:other:saulttogether": "node ./sites/saultTogether/buildConfig.js",
     "build:other:shapethesault": "node ./sites/shapethesault/buildConfig.js"
@@ -67,17 +69,17 @@
   },
   "homepage": "https://github.com/cityssm/lighthouse-scans#readme",
   "devDependencies": {
-    "@types/node": "^16.3.2",
-    "@typescript-eslint/eslint-plugin": "^4.28.3",
-    "@typescript-eslint/parser": "^4.28.3",
-    "eslint": "^7.30.0",
+    "@types/node": "^16.4.1",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-unicorn": "^34.0.1"
   },
   "dependencies": {
-    "@cityssm/get-site-urls": "^3.0.1"
+    "@cityssm/get-site-urls": "^3.1.0"
   },
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
