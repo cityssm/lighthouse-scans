@@ -11,7 +11,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npm install && npm install -g @lhci/cli@0.8.0
+      - run: npm install -g npm@7 @lhci/cli@0.8.0
+      - run: npm ci
       - run: npm run build:other:saulttogether
       - run: npm run test:other:saulttogether
         env:
