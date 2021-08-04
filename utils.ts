@@ -4,6 +4,19 @@ import { getSiteUrls } from "@cityssm/get-site-urls";
 import * as config from "./config.js";
 
 
+const shuffleArray = (array: string[]) => {
+
+  for (let index = array.length - 1; index > 0; index--) {
+    const index2 = Math.floor(Math.random() * (index + 1));
+    const temporary = array[index];
+    array[index] = array[index2];
+    array[index2] = temporary;
+  }
+
+  return array;
+};
+
+
 export const writeConfig = async (
   urlsToInclude: string[],
   urlsToSearch: string[],
@@ -24,7 +37,7 @@ export const writeConfig = async (
     }
   }
 
-  const distinctURLs: string[] = [...(new Set(allURLs))];
+  let distinctURLs: string[] = [...(new Set(allURLs))];
 
   for (let index = 0; index < distinctURLs.length; index += 1) {
     const url = distinctURLs[index];
@@ -32,6 +45,11 @@ export const writeConfig = async (
       distinctURLs.splice(index, 1);
       index -= 1;
     }
+  }
+
+  if (distinctURLs.length > config.collectConfig_urlLimit) {
+    console.log("Reducing " + distinctURLs.length + " URLs.");
+    distinctURLs = shuffleArray(distinctURLs).slice(0, config.collectConfig_urlLimit);
   }
 
   /*
