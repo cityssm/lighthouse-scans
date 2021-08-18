@@ -4,9 +4,7 @@ import * as config from "./config.js";
 const shuffleArray = (array) => {
     for (let index = array.length - 1; index > 0; index--) {
         const index2 = Math.floor(Math.random() * (index + 1));
-        const temporary = array[index];
-        array[index] = array[index2];
-        array[index2] = temporary;
+        [array[index], array[index2]] = [array[index2], array[index]];
     }
     return array;
 };
