@@ -2,7 +2,7 @@ name: WelcomeToSSM.com
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 13 * * 1-5'
+    - cron: '0 1,13 * * 1-5'
 jobs:
   lighthouseci:
     runs-on: ubuntu-18.04
