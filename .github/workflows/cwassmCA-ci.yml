@@ -1,4 +1,4 @@
-name: SaultNetwork.ca
+name: CWASSM.ca
 on:
   workflow_dispatch:
   schedule:
