@@ -44,7 +44,6 @@
 
     "build:group:eservices": "npm-run-all -c build:eservices:*",
     "build:eservices:apps-cityapps": "node ./sites/appsSaultstemarieCa-cityapps/buildConfig.js",
-    "build:eservices:apps-eservices": "node ./sites/appsSaultstemarieCa-eservices/buildConfig.js",
     "build:eservices:apps-shop": "node ./sites/appsSaultstemarieCa-shop/buildConfig.js",
 
     "build:group:thirdparty": "npm-run-all -c build:thirdparty:*",
