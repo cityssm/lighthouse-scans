@@ -77,10 +77,10 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.1",
-    "eslint-plugin-unicorn": "^37.0.1"
+    "eslint-plugin-unicorn": "^38.0.0"
   },
   "dependencies": {
-    "@cityssm/get-site-urls": "^3.1.1"
+    "@cityssm/get-site-urls": "^3.1.2"
   },
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
