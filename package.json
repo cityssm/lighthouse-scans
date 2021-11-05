@@ -5,7 +5,6 @@
   "type": "module",
   "scripts": {
     "test": "npm-run-all -c test:group:*",
-
     "test:group:websites": "npm-run-all -c test:website:*",
     "test:website:futuressm": "lhci autorun --config sites/futuressm/lighthouserc.json",
     "test:website:gflgardens": "lhci autorun --config sites/gflgardens/lighthouserc.json",
@@ -13,51 +12,43 @@
     "test:website:saultstemarie": "lhci autorun --config sites/saultstemarie/lighthouserc.json",
     "test:website:saulttourism": "lhci autorun --config sites/saultTourism/lighthouserc.json",
     "test:website:welcometossm": "lhci autorun --config sites/welcometossm/lighthouserc.json",
-
     "test:group:eservices": "npm-run-all -c test:eservices:*",
     "test:eservices:apps-cityapps": "lhci autorun --config sites/appsSaultstemarieCa-cityapps/lighthouserc.json",
     "test:eservices:apps-eservices": "lhci autorun --config sites/appsSaultstemarieCa-eservices/lighthouserc.json",
     "test:eservices:apps-shop": "lhci autorun --config sites/appsSaultstemarieCa-shop/lighthouserc.json",
-
     "test:group:thirdparty": "npm-run-all -c test:thirdparty:*",
     "test:thirdparty:activecommunities": "lhci autorun --config sites/activecommunities/lighthouserc.json",
     "test:thirdparty:arenaTicketSales": "lhci autorun --config sites/arenaTicketSales/lighthouserc.json",
     "test:thirdparty:clearrisk": "lhci autorun --config sites/clearrisk/lighthouserc.json",
     "test:thirdparty:virtualcityhall": "lhci autorun --config sites/virtualcityhall/lighthouserc.json",
-
     "test:group:other": "npm-run-all -c test:other:*",
     "test:other:cityssmGithub": "lhci autorun --config sites/cityssmGithubIO/lighthouserc.json",
     "test:other:cwassm": "lhci autorun --config sites/cwassm/lighthouserc.json",
     "test:other:saultnetwork": "lhci autorun --config sites/saultNetwork/lighthouserc.json",
     "test:other:saulttogether": "lhci autorun --config sites/saultTogether/lighthouserc.json",
     "test:other:shapethesault": "lhci autorun --config sites/shapethesault/lighthouserc.json",
-
     "build": "npm-run-all -c build:group:*",
-
     "build:group:websites": "npm-run-all -c build:website:*",
-    "build:website:futuressm": "node ./sites/futuressm/buildConfig.js",
-    "build:website:gflgardens": "node ./sites/gflgardens/buildConfig.js",
-    "build:website:investsaultstemarie": "node ./sites/investSaultSteMarie/buildConfig.js",
-    "build:website:saultstemarie": "node ./sites/saultstemarie/buildConfig.js",
-    "build:website:saulttourism": "node ./sites/saultTourism/buildConfig.js",
-    "build:website:welcometossm": "node ./sites/welcometossm/buildConfig.js",
-
+    "build:website:futuressm": "cross-env DEBUG=get-site-urls node ./sites/futuressm/buildConfig.js",
+    "build:website:gflgardens": "cross-env DEBUG=get-site-urls node ./sites/gflgardens/buildConfig.js",
+    "build:website:investsaultstemarie": "cross-env DEBUG=get-site-urls node ./sites/investSaultSteMarie/buildConfig.js",
+    "build:website:saultstemarie": "cross-env DEBUG=get-site-urls node ./sites/saultstemarie/buildConfig.js",
+    "build:website:saulttourism": "cross-env DEBUG=get-site-urls node ./sites/saultTourism/buildConfig.js",
+    "build:website:welcometossm": "cross-env DEBUG=get-site-urls node ./sites/welcometossm/buildConfig.js",
     "build:group:eservices": "npm-run-all -c build:eservices:*",
-    "build:eservices:apps-cityapps": "node ./sites/appsSaultstemarieCa-cityapps/buildConfig.js",
-    "build:eservices:apps-shop": "node ./sites/appsSaultstemarieCa-shop/buildConfig.js",
-
+    "build:eservices:apps-cityapps": "cross-env DEBUG=get-site-urls node ./sites/appsSaultstemarieCa-cityapps/buildConfig.js",
+    "build:eservices:apps-shop": "cross-env DEBUG=get-site-urls node ./sites/appsSaultstemarieCa-shop/buildConfig.js",
     "build:group:thirdparty": "npm-run-all -c build:thirdparty:*",
-    "build:thirdparty:activecommunities": "node ./sites/activecommunities/buildConfig.js",
-    "build:thirdparty:arenaTicketSales": "node ./sites/arenaTicketSales/buildConfig.js",
-    "build:thirdparty:clearrisk": "node ./sites/clearrisk/buildConfig.js",
-    "build:thirdparty:virtualcityhall": "node ./sites/virtualcityhall/buildConfig.js",
-
+    "build:thirdparty:activecommunities": "cross-env DEBUG=get-site-urls node ./sites/activecommunities/buildConfig.js",
+    "build:thirdparty:arenaTicketSales": "cross-env DEBUG=get-site-urls node ./sites/arenaTicketSales/buildConfig.js",
+    "build:thirdparty:clearrisk": "cross-env DEBUG=get-site-urls node ./sites/clearrisk/buildConfig.js",
+    "build:thirdparty:virtualcityhall": "cross-env DEBUG=get-site-urls node ./sites/virtualcityhall/buildConfig.js",
     "build:group:other": "npm-run-all -c build:other:*",
-    "build:other:cityssmGithub": "node ./sites/cityssmGithubIO/buildConfig.js",
-    "build:other:cwassm": "node ./sites/cwassm/buildConfig.js",
-    "build:other:saultnetwork": "node ./sites/saultNetwork/buildConfig.js",
-    "build:other:saulttogether": "node ./sites/saultTogether/buildConfig.js",
-    "build:other:shapethesault": "node ./sites/shapethesault/buildConfig.js"
+    "build:other:cityssmGithub": "cross-env DEBUG=get-site-urls node ./sites/cityssmGithubIO/buildConfig.js",
+    "build:other:cwassm": "cross-env DEBUG=get-site-urls node ./sites/cwassm/buildConfig.js",
+    "build:other:saultnetwork": "cross-env DEBUG=get-site-urls node ./sites/saultNetwork/buildConfig.js",
+    "build:other:saulttogether": "cross-env DEBUG=get-site-urls node ./sites/saultTogether/buildConfig.js",
+    "build:other:shapethesault": "cross-env DEBUG=get-site-urls node ./sites/shapethesault/buildConfig.js"
   },
   "repository": {
     "type": "git",
@@ -80,7 +71,8 @@
     "eslint-plugin-unicorn": "^38.0.0"
   },
   "dependencies": {
-    "@cityssm/get-site-urls": "^3.1.2"
+    "@cityssm/get-site-urls": "^3.2.0",
+    "cross-env": "^7.0.3"
   },
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
