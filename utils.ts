@@ -28,8 +28,8 @@ export const writeConfig = async (
 
   for (const url of urlsToSearch) {
     try {
-      const siteURLs = await getSiteUrls(url, 2);
       console.log("Searching URL: " + url);
+      const siteURLs = await getSiteUrls(url, config.getSiteURLs_maxDepth);
       console.log(siteURLs);
       allURLs.push(...siteURLs.pages);
     } catch {

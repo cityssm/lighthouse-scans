@@ -1,3 +1,4 @@
+export declare const getSiteURLs_maxDepth = 2;
 export declare const collectConfig_numberOfRuns = 3;
 export declare const collectConfig_urlLimit = 50;
 export declare const assertConfig: {
