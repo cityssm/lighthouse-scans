@@ -29,9 +29,11 @@ export const writeConfig = async (
   for (const url of urlsToSearch) {
     try {
       const siteURLs = await getSiteUrls(url, 2);
+      console.log("Searching URL: " + url);
+      console.log(siteURLs);
       allURLs.push(...siteURLs.pages);
     } catch {
-      console.log("Error searching URL: " + url);
+      console.error("Error searching URL: " + url);
     }
   }
 

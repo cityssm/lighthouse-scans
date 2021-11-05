@@ -13,10 +13,12 @@ export const writeConfig = async (urlsToInclude, urlsToSearch, outputFolder) => 
     for (const url of urlsToSearch) {
         try {
             const siteURLs = await getSiteUrls(url, 2);
+            console.log("Searching URL: " + url);
+            console.log(siteURLs);
             allURLs.push(...siteURLs.pages);
         }
         catch (_a) {
-            console.log("Error searching URL: " + url);
+            console.error("Error searching URL: " + url);
         }
     }
     let distinctURLs = [...(new Set(allURLs))];
