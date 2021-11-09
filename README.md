@@ -52,3 +52,8 @@ Thanks [Shields.io](https://shields.io/) for the badges used to make the table b
 | [SaultNetwork.ca](https://saultnetwork.ca/)<br />`npm run test:other:saultnetwork`                                                                                                                                        | [![SaultNetwork.ca](https://img.shields.io/github/workflow/status/cityssm/lighthouse-scans/SaultNetwork.ca?label=%20&style=for-the-badge)](https://github.com/cityssm/lighthouse-scans/actions?query=workflow%3ASaultNetwork.ca)                                              |
 | [SaultTogether.ca](https://www.saulttogether.ca/)<br />`npm run test:other:saulttogether`                                                                                                                                 | [![SaultTogether.ca](https://img.shields.io/github/workflow/status/cityssm/lighthouse-scans/SaultTogether.ca?label=%20&style=for-the-badge)](https://github.com/cityssm/lighthouse-scans/actions?query=workflow%3ASaultTogether.ca)                                           |
 | [ShapeTheSault.ca](https://shapethesault.ca/)<br />`npm run test:other:shapethesault`                                                                                                                                     | [![ShapeTheSault.ca](https://img.shields.io/github/workflow/status/cityssm/lighthouse-scans/ShapeTheSault.ca?label=%20&style=for-the-badge)](https://github.com/cityssm/lighthouse-scans/actions?query=workflow%3AShapeTheSault.ca)                                           |
+
+## Links
+
+-   [City of Sault Ste. Marie Website Auditing Resources](https://cityssm.github.io/website-auditing/)
+-   [SaultSteMarie.ca Upptime](https://cityssm.github.io/upptime/)
