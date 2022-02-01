@@ -71,7 +71,7 @@
     "eslint-plugin-unicorn": "^40.1.0"
   },
   "dependencies": {
-    "@cityssm/get-site-urls": "^3.3.1",
+    "@cityssm/get-site-urls": "^3.4.0",
     "cross-env": "^7.0.3"
   },
   "engines": {
