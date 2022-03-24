@@ -1,13 +1,13 @@
 import { writeConfig } from "../../utils.js";
 (async () => {
     await writeConfig([
-        "https://shapethesault.ca/",
-        "https://shapethesault.ca/focus-areas",
-        "https://shapethesault.ca/events-%26-news",
-        "https://shapethesault.ca/land-use",
-        "https://shapethesault.ca/james-street",
-        "https://shapethesault.ca/faq-%26-feedback"
+        "http://shapethesault.ca/",
+        "http://shapethesault.ca/focus-areas",
+        "http://shapethesault.ca/events-%26-news",
+        "http://shapethesault.ca/land-use",
+        "http://shapethesault.ca/james-street",
+        "http://shapethesault.ca/faq-%26-feedback"
     ], [
-        "https://shapethesault.ca/"
+        "http://shapethesault.ca/home"
     ], "shapethesault");
 })();
