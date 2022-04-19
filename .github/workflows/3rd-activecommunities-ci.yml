@@ -16,4 +16,4 @@ jobs:
       - run: npm run build:thirdparty:activecommunities
       - run: npm run test:thirdparty:activecommunities
         env:
-          LHCI_GITHUB_TOKEN: ${{ secrets.LHCI_GITHUB_TOKEN }}
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}

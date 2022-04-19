@@ -16,4 +16,4 @@ jobs:
       - run: npm run build:website:saulttourism
       - run: npm run test:website:saulttourism
         env:
-          LHCI_GITHUB_TOKEN: ${{ secrets.LHCI_GITHUB_TOKEN }}
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
