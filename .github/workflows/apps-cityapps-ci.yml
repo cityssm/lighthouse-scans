@@ -16,5 +16,4 @@ jobs:
       - run: npm run build:eservices:apps-cityapps
       - run: npm run test:eservices:apps-cityapps
         env:
-          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_TOKEN }}
           LHCI_GITHUB_TOKEN: ${{ secrets.LHCI_GITHUB_TOKEN }}

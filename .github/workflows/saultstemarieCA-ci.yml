@@ -16,5 +16,4 @@ jobs:
       - run: npm run build:website:saultstemarie
       - run: npm run test:website:saultstemarie
         env:
-          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_TOKEN }}
           LHCI_GITHUB_TOKEN: ${{ secrets.LHCI_GITHUB_TOKEN }}
