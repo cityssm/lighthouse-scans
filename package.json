@@ -6,6 +6,7 @@
   "scripts": {
     "test": "npm-run-all -c test:group:*",
     "test:group:websites": "npm-run-all -c test:website:*",
+    "test:website:artsandculturessm": "lhci autorun --config sites/artsAndCultureSSM/lighthouserc.json",
     "test:website:futuressm": "lhci autorun --config sites/futuressm/lighthouserc.json",
     "test:website:gflgardens": "lhci autorun --config sites/gflgardens/lighthouserc.json",
     "test:website:saultstemarie": "lhci autorun --config sites/saultstemarie/lighthouserc.json",
@@ -28,6 +29,7 @@
     "test:other:shapethesault": "lhci autorun --config sites/shapethesault/lighthouserc.json",
     "build": "npm-run-all -c build:group:*",
     "build:group:websites": "npm-run-all -c build:website:*",
+    "build:website:artsandculturessm": "cross-env DEBUG=get-site-urls node ./sites/artsAndCultureSSM/buildConfig.js",
     "build:website:futuressm": "cross-env DEBUG=get-site-urls node ./sites/futuressm/buildConfig.js",
     "build:website:gflgardens": "cross-env DEBUG=get-site-urls node ./sites/gflgardens/buildConfig.js",
     "build:website:saultstemarie": "cross-env DEBUG=get-site-urls node ./sites/saultstemarie/buildConfig.js",
