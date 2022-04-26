@@ -11,5 +11,6 @@ import { writeConfig } from "../../utils.js";
   ], [
     "http://shapethesault.ca/home"
   ],
+  [],
     "shapethesault");
 })();

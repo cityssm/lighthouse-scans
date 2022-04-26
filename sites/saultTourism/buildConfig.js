@@ -9,5 +9,5 @@ import { writeConfig } from "../../utils.js";
         "https://www.saulttourism.com/contact-us"
     ], [
         "https://www.saulttourism.com/"
-    ], "saultTourism");
+    ], [], "saultTourism");
 })();

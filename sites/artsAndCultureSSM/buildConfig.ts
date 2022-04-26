@@ -16,5 +16,6 @@ import { writeConfig } from "../../utils.js";
       "https://artsandculturessm.ca/community/",
       "https://artsandculturessm.ca/sitemap/"
     ],
+    [],
     "artsAndCultureSSM");
 })();

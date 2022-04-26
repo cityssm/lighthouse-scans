@@ -10,7 +10,10 @@ import { writeConfig } from "../../utils.js";
     "https://saultstemarie.ca/webapps/parabusCalendar.asp",
     "https://saultstemarie.ca/webapps/parksAndPlaygrounds.asp"
   ], [
-    "https://saultstemarie.ca"
-  ],
+      "https://saultstemarie.ca"
+    ],
+    [
+      "https://saultstemarie.ca/Newsroom/November-2019/Celebrate-the-season-with-the-annual-Community-Tre.aspx"
+    ],
     "saultstemarie");
 })();

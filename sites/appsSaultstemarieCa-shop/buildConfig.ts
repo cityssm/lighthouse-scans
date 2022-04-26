@@ -9,6 +9,6 @@ import { writeConfig } from "../../utils.js";
     "https://apps.saultstemarie.ca/cityapps/shop/products/ticket_noticeOfFine",
     "https://apps.saultstemarie.ca/cityapps/shop/products/ticket_parking",
     "https://apps.saultstemarie.ca/cityapps/shop/checkout"
-  ], [],
+  ], [], [],
     "appsSaultstemarieCa-shop");
 })();

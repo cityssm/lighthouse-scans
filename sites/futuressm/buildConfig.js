@@ -13,5 +13,5 @@ import { writeConfig } from "../../utils.js";
     ], [
         "https://futuressm.com/index.cfm?fuseaction=content&MenuID=8&PageID=1007",
         "https://futuressm.com/index.cfm?fuseaction=content&menuid=2&pageid=1001"
-    ], "futuressm");
+    ], [], "futuressm");
 })();

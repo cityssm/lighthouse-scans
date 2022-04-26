@@ -6,6 +6,6 @@ import { writeConfig } from "../../utils.js";
     "https://cwassm.ca/"
   ], [
       "https://cwassm.ca/"
-    ],
+    ], [],
     "cwassm");
 })();

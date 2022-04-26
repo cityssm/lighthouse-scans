@@ -8,5 +8,5 @@ import { writeConfig } from "../../utils.js";
         "http://shapethesault.ca/james-street"
     ], [
         "http://shapethesault.ca/home"
-    ], "shapethesault");
+    ], [], "shapethesault");
 })();

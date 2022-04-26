@@ -12,5 +12,5 @@ import { writeConfig } from "../../utils.js";
         "https://artsandculturessm.ca/events-activities/",
         "https://artsandculturessm.ca/community/",
         "https://artsandculturessm.ca/sitemap/"
-    ], "artsAndCultureSSM");
+    ], [], "artsAndCultureSSM");
 })();

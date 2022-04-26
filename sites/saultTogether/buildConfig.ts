@@ -22,5 +22,6 @@ import { writeConfig } from "../../utils.js";
   ], [
       "https://www.saulttogether.ca/"
     ],
+    [],
     "saultTogether");
 })();

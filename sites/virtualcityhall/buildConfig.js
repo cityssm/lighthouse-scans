@@ -8,5 +8,5 @@ import { writeConfig } from "../../utils.js";
         "https://myfinance.saultstemarie.ca/VCH/city/propsearch/txassessmentresponse.aspx?rollno=020044010000000"
     ], [
         "https://myfinance.saultstemarie.ca/vch/"
-    ], "virtualcityhall");
+    ], [], "virtualcityhall");
 })();

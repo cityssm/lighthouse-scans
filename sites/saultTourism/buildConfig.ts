@@ -14,5 +14,6 @@ import { writeConfig } from "../../utils.js";
   ], [
     "https://www.saulttourism.com/"
   ],
+  [],
     "saultTourism");
 })();

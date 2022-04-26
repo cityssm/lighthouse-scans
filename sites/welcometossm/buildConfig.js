@@ -11,5 +11,5 @@ import { writeConfig } from "../../utils.js";
         "https://welcometossm.com/?s=transportation"
     ], [
         "https://welcometossm.com/"
-    ], "welcometossm");
+    ], [], "welcometossm");
 })();

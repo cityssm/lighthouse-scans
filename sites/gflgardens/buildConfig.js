@@ -8,5 +8,5 @@ import { writeConfig } from "../../utils.js";
         "http://gflgardens.ca/webapps-gardens/seatingMap_concert/index.asp"
     ], [
         "http://gflgardens.ca"
-    ], "gflgardens");
+    ], [], "gflgardens");
 })();

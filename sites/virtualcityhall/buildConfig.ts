@@ -16,5 +16,6 @@ import { writeConfig } from "../../utils.js";
   ], [
       "https://myfinance.saultstemarie.ca/vch/"
     ],
+    [],
     "virtualcityhall");
 })();

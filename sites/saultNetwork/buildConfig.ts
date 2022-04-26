@@ -9,7 +9,8 @@ import { writeConfig } from "../../utils.js";
     "https://saultnetwork.ca/contact-us/",
     "https://saultnetwork.ca/create-a-profile/"
   ], [
-    "https://saultnetwork.ca"
-  ],
+      "https://saultnetwork.ca"
+    ],
+    [],
     "saultNetwork");
 })();

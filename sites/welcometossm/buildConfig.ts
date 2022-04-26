@@ -12,7 +12,8 @@ import { writeConfig } from "../../utils.js";
     "https://welcometossm.com/why-these-millennials-left-southern-ontario-for-the-soo-without-looking-back/",
     "https://welcometossm.com/?s=transportation"
   ], [
-    "https://welcometossm.com/"
-  ],
+      "https://welcometossm.com/"
+    ],
+    [],
     "welcometossm");
 })();

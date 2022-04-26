@@ -12,5 +12,6 @@ import { writeConfig } from "../../utils.js";
       "https://cityssm.github.io/lottery-licence-manager",
       "https://cityssm.github.io/parking-ticket-system/"
     ],
+    [],
     "cityssmGithubIO");
 })();

@@ -9,5 +9,5 @@ import { writeConfig } from "../../utils.js";
         "https://www.soomaps.com/archubpages/hub-embed-table.html?feature=5&featureName=Restaurants&returnAddress=https://www.saulttogether.ca/"
     ], [
         "https://www.saulttogether.ca/"
-    ], "saultTogether");
+    ], [], "saultTogether");
 })();

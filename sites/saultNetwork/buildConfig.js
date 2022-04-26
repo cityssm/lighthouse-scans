@@ -8,5 +8,5 @@ import { writeConfig } from "../../utils.js";
         "https://saultnetwork.ca/create-a-profile/"
     ], [
         "https://saultnetwork.ca"
-    ], "saultNetwork");
+    ], [], "saultNetwork");
 })();

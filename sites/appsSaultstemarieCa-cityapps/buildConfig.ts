@@ -9,6 +9,6 @@ import { writeConfig } from "../../utils.js";
     "https://apps.saultstemarie.ca/cityapps/builderServices-inspectionChecklists.asp",
     "https://apps.saultstemarie.ca/cityapps/builderServices-blankChecklist.asp?c=140",
     "https://apps.saultstemarie.ca/cityapps/tipsAndTricks.asp"
-  ], [],
+  ], [], [],
     "appsSaultstemarieCa-cityapps");
 })();
