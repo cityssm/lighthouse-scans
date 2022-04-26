@@ -8,7 +8,7 @@ const shuffleArray = (array) => {
     }
     return array;
 };
-export const writeConfig = async (urlsToInclude, urlsToSearch, outputFolder) => {
+export const writeConfig = async (urlsToInclude, urlsToSearch, urlsToExclude, outputFolder) => {
     const allURLs = [...urlsToInclude, ...urlsToSearch];
     for (const url of urlsToSearch) {
         try {
@@ -24,7 +24,8 @@ export const writeConfig = async (urlsToInclude, urlsToSearch, outputFolder) => 
     let distinctURLs = [...(new Set(allURLs))];
     for (let index = 0; index < distinctURLs.length; index += 1) {
         const url = distinctURLs[index];
-        if (url.endsWith(".pdf")) {
+        if (url.endsWith(".pdf") || urlsToExclude.includes(url)) {
+            console.warn("Removing URL: " + url);
             distinctURLs.splice(index, 1);
             index -= 1;
         }

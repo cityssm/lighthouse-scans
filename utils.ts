@@ -18,6 +18,7 @@ const shuffleArray = (array: string[]) => {
 export const writeConfig = async (
   urlsToInclude: string[],
   urlsToSearch: string[],
+  urlsToExclude: string[],
   outputFolder: string): Promise<boolean> => {
 
   /*
@@ -41,7 +42,8 @@ export const writeConfig = async (
 
   for (let index = 0; index < distinctURLs.length; index += 1) {
     const url = distinctURLs[index];
-    if (url.endsWith(".pdf")) {
+    if (url.endsWith(".pdf") || urlsToExclude.includes(url)) {
+      console.warn("Removing URL: " + url);
       distinctURLs.splice(index, 1);
       index -= 1;
     }
