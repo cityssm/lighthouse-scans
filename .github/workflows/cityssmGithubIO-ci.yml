@@ -10,8 +10,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: '14'
-      - run: npm install -g npm@7 @lhci/cli@0.9.x
+          node-version: '16'
+      - run: npm install -g @lhci/cli@0.9.x
       - run: npm ci
       - run: npm run build:other:cityssmGithub
       - run: npm run test:other:cityssmGithub
