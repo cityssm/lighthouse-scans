@@ -1,6 +1,6 @@
 export const getSiteURLs_maxDepth = 2;
 
-export const collectConfig_numberOfRuns = 3;
+export const collectConfig_numberOfRuns = 2;
 export const collectConfig_urlLimit = 50;
 
 export const assertConfig = {
