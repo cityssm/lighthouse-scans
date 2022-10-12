@@ -3,6 +3,7 @@ import { writeConfig } from "../../utils.js";
     await writeConfig([
         "https://cityssm.github.io",
         "https://cityssm.github.io/municipal-github-rankings/",
+        "https://cityssm.github.io/property-tax-rate-data/",
         "https://cityssm.github.io/ward-finder/"
     ], [
         "https://cityssm.github.io/contract-expiration-tracker",
