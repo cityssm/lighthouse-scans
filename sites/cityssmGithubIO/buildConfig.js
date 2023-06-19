@@ -9,6 +9,7 @@ import { writeConfig } from "../../utils.js";
         "https://cityssm.github.io/contract-expiration-tracker",
         "https://cityssm.github.io/corporate-records-manager",
         "https://cityssm.github.io/general-licence-manager",
+        "https://cityssm.github.io/lot-occupancy-system/",
         "https://cityssm.github.io/lottery-licence-manager",
         "https://cityssm.github.io/MonTY/",
         "https://cityssm.github.io/parking-ticket-system/"
