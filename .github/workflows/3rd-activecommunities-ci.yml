@@ -11,7 +11,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '20'
-      - run: npm install -g @lhci/cli@0.10.x
+      - run: npm install -g @lhci/cli@0.13.x
       - run: npm ci
       - run: npm run build:thirdparty:activecommunities
       - run: npm run test:thirdparty:activecommunities
