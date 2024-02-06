@@ -13,16 +13,15 @@ function shuffleArray(array: string[]): string[] {
   return array
 }
 
-export const writeConfig = async (
+export async function writeConfig(
   urlsToInclude: string[],
   urlsToSearch: string[],
   urlsToExclude: string[],
   outputFolder: string
-): Promise<boolean> => {
+): Promise<boolean> {
   /*
    * Build URLs
    */
-
   const allURLs: string[] = [...urlsToInclude, ...urlsToSearch]
 
   for (const url of urlsToSearch) {
@@ -58,7 +57,6 @@ export const writeConfig = async (
   /*
    * Construct object
    */
-
   const output = {
     ci: {
       collect: {
@@ -73,7 +71,6 @@ export const writeConfig = async (
   /*
    * Output
    */
-
   try {
     fs.writeFile(
       `./sites/${outputFolder}/lighthouserc.json`,

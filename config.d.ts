@@ -3,16 +3,16 @@ export declare const collectConfig_numberOfRuns = 2;
 export declare const collectConfig_urlLimit = 50;
 export declare const assertConfig: {
     assertions: {
-        "categories:accessibility": (string | {
+        'categories:accessibility': (string | {
             minScore: number;
         })[];
-        "categories:best-practices": (string | {
+        'categories:best-practices': (string | {
             minScore: number;
         })[];
-        "categories:seo": (string | {
+        'categories:seo': (string | {
             minScore: number;
         })[];
-        "categories:performance": (string | {
+        'categories:performance': (string | {
             minScore: number;
         })[];
     };

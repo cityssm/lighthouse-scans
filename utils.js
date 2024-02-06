@@ -1,14 +1,14 @@
 import * as fs from 'node:fs';
 import { getSiteUrls } from '@cityssm/get-site-urls';
 import * as config from './config.js';
-const shuffleArray = (array) => {
+function shuffleArray(array) {
     for (let index = array.length - 1; index > 0; index--) {
         const index2 = Math.floor(Math.random() * (index + 1));
         [array[index], array[index2]] = [array[index2], array[index]];
     }
     return array;
-};
-export const writeConfig = async (urlsToInclude, urlsToSearch, urlsToExclude, outputFolder) => {
+}
+export async function writeConfig(urlsToInclude, urlsToSearch, urlsToExclude, outputFolder) {
     const allURLs = [...urlsToInclude, ...urlsToSearch];
     for (const url of urlsToSearch) {
         try {
@@ -45,8 +45,8 @@ export const writeConfig = async (urlsToInclude, urlsToSearch, urlsToExclude, ou
         }
     };
     try {
-        fs.writeFile('./sites/' + outputFolder + '/lighthouserc.json', JSON.stringify(output), {}, () => {
-            console.log('Config written with ' + distinctURLs.length.toString() + ' URLs.');
+        fs.writeFile(`./sites/${outputFolder}/lighthouserc.json`, JSON.stringify(output), {}, () => {
+            console.log(`Config written with ${distinctURLs.length.toString()} URLs.`);
             return true;
         });
     }
@@ -54,4 +54,4 @@ export const writeConfig = async (urlsToInclude, urlsToSearch, urlsToExclude, ou
         console.error(error);
         return false;
     }
-};
+}

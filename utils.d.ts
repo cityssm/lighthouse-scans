@@ -1,1 +1,1 @@
-export declare const writeConfig: (urlsToInclude: string[], urlsToSearch: string[], urlsToExclude: string[], outputFolder: string) => Promise<boolean>;
+export declare function writeConfig(urlsToInclude: string[], urlsToSearch: string[], urlsToExclude: string[], outputFolder: string): Promise<boolean>;
