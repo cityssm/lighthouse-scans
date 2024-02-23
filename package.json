@@ -63,7 +63,7 @@
   "devDependencies": {
     "@types/node": "^20.11.16",
     "eslint": "^8.56.0",
-    "eslint-config-cityssm": "^1.4.1"
+    "eslint-config-cityssm": "^1.4.2"
   },
   "dependencies": {
     "@cityssm/get-site-urls": "^3.5.1",
