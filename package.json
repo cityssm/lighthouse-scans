@@ -61,7 +61,7 @@
   },
   "homepage": "https://github.com/cityssm/lighthouse-scans#readme",
   "devDependencies": {
-    "@types/node": "^20.11.16",
+    "@types/node": "^20.11.20",
     "eslint": "^8.56.0",
     "eslint-config-cityssm": "^1.4.1"
   },
