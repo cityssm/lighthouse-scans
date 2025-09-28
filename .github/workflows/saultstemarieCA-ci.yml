@@ -5,12 +5,12 @@ on:
     - cron: '0 8,20 * * 1-5'
 jobs:
   lighthouseci:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: '22'
       - run: npm install -g @lhci/cli@0.13.x
       - run: npm ci
       - run: npm run build:website:saultstemarie
